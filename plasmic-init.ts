@@ -1,5 +1,6 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 import Robot from "./components/Robot";
+import RobotOld from "./components/RobotOld";
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
@@ -24,5 +25,10 @@ export const PLASMIC = initPlasmicLoader({
 
 PLASMIC.registerComponent(Robot, {
   name: "Robot",
+  props: {},
+});
+
+PLASMIC.registerComponent(RobotOld, {
+  name: "RobotOld",
   props: {},
 });
