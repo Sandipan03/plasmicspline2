@@ -3,8 +3,8 @@ import Robot from "./components/Robot";
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
-      id: "29EFvEcM4xcTRT2ykora3Y",
-      token: "vXiH2Yoe4xqg8FSUgGiJtVBWMSIdeyTom8EU7WujAn2BVe5BUae1cjqGOYrws3IWGd26uK9qciwKO0L9pBlA",
+      id: "8ezVBUfhxTZRVwYwN3N5yL",
+      token: "aH6WLelLLNVA6YCWJpRaXvpA30ZT3SItLjiKRPd0rBrkGNwqLhZ4TDbGdm4gKovOU6TIkWBjwyfLSKiHWyB4jQ",
     },
   ],
 
