@@ -11,7 +11,7 @@ function Robot({ className }) {
     gsap.to(".loader", {
       opacity: 0,
       duration: 1,
-      rotate: 180,
+      
     });
     gsap.from(".spline", {
       opacity: 0,
