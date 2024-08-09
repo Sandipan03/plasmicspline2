@@ -1,5 +1,5 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
-import Robot from "./components/Robot"
+import Robot from "./components/Robot";
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
@@ -12,7 +12,7 @@ export const PLASMIC = initPlasmicLoader({
   // For development, you can set preview to true, which will use the unpublished
   // project, allowing you to see your designs without publishing.  Please
   // only use this for development, as this is significantly slower.
-  preview: true,
+  preview: false,
 });
 
 // You can register any code components that you want to use here; see
@@ -22,7 +22,7 @@ export const PLASMIC = initPlasmicLoader({
 // http://localhost:3000/plasmic-host).  See
 // https://docs.plasmic.app/learn/app-hosting/#set-a-plasmic-project-to-use-your-app-host
 
-PLASMIC.registerComponent(Robot,{
+PLASMIC.registerComponent(Robot, {
   name: "Robot",
-  props: {}
+  props: {},
 });
