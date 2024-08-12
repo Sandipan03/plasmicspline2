@@ -31,7 +31,7 @@ function Model2({ className }) {
             marginTop: '40vh',
           }}
         >
-          Loading....
+          Loading...
         </h1>
      
       <Spline
