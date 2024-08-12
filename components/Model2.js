@@ -36,7 +36,7 @@ function Model2({ className }) {
      
       <Spline
         className="spline"
-        scene="https://prod.spline.design/DoeRyB08RDh7hUMG/scene.splinecode"
+        scene="https://prod.spline.design/iewzFp7qftg-N4ru/scene.splinecode"
         onLoad={handleLoad}
       />
     </div>
