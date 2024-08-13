@@ -20,7 +20,7 @@ function Robot({ className }) {
               marginTop: "40vh",
             }}
           >
-            Loading....
+            Loading...
           </h1>
         }
       >
