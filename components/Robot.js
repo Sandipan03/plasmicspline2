@@ -24,8 +24,8 @@ function Robot({ className }) {
           </h1>
         }
       >
-        <Spline scene="https://prod.spline.design/tJgdrOWwx3zxIXXy/scene.splinecode" />
-        {/* <h1>This is the model</h1> */}
+        {/* <Spline scene="https://prod.spline.design/tJgdrOWwx3zxIXXy/scene.splinecode" /> */}
+        <h1>This is the model</h1>
       </Suspense>
     </div>
   );
