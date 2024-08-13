@@ -12,6 +12,7 @@
     "@gsap/react": "^2.1.1",
     "@plasmicapp/loader-nextjs": "^1.0.401",
     "@splinetool/react-spline": "^4.0.0",
+    "critters": "^0.0.7",
     "gsap": "^3.12.5",
     "next": "14.2.5",
     "react": "^18",
